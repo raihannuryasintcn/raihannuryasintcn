@@ -1,4 +1,33 @@
-.grid-container {
+body{
+    margin: 0;
+}
+
+.header {
+    background: #dddddd;
     display: grid;
     grid-template-columns: 50% 50%;
+    padding: 0px 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    margin-right: 20px;
+}
+
+.wrapper {
+    margin: 5% 10%;
+}
+
+footer {
+    padding: 10px;
+    background: #dddddd;
+}
+
+p.footer {
+    margin: 0;
 }
