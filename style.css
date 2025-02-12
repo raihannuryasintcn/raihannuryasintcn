@@ -31,3 +31,14 @@ footer {
 p.footer {
     margin: 0;
 }
+
+.error {
+    margin: 0% 15%;
+    text-align: center;
+}
+
+.contact {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
