@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Poppins', serif;
 }
 
 .header {
@@ -37,8 +38,29 @@ p.footer {
     text-align: center;
 }
 
+.contact-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
 .contact {
     display:flex;
     flex-direction: column;
     gap: 20px;
+}
+
+button {
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+button.red {
+    background-color: palevioletred;
+}
+
+button.green{
+    background-color: aquamarine;
+
 }
