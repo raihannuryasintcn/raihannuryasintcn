@@ -1,4 +1,5 @@
 import { LocationProvider, Router, Route, hydrate, prerender as ssr } from 'preact-iso';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import { Header } from './components/Header.jsx';
 import { Home } from './pages/Home/index.jsx';
@@ -11,6 +12,7 @@ import { Footer } from './components/Footer.jsx';
 export function App() {
 	return (
 		<LocationProvider>
+			<SpeedInsights />
 			<Header />
 			<main>
 				<Router>
