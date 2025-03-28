@@ -40,15 +40,15 @@ export function Footer() {
                     {/* Social Links */}
                     <div className="flex space-x-4">
                         <SocialLink 
-                            href="https://github.com/raihannuryasin" 
+                            href="https://github.com/raihannuryasintcn" 
                             icon={<Github size={24} />} 
                         />
                         <SocialLink 
-                            href="https://linkedin.com/in/raihannuryasin" 
+                            href="https://www.linkedin.com/ in/raihan-nur-yasin-200180345/" 
                             icon={<Linkedin size={24} />} 
                         />
                         <SocialLink 
-                            href="https://instagram.com/raihannuryasin" 
+                            href="https://instagram.com/notraihannuryasin" 
                             icon={<Instagram size={24} />} 
                         />
                     </div>
