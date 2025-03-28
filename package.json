@@ -10,6 +10,7 @@
 		"@lottiefiles/dotlottie-react": "^0.13.0",
 		"@vercel/analytics": "^1.5.0",
 		"@vercel/speed-insights": "^1.2.0",
+		"lucide-preact": "^0.485.0",
 		"preact": "^10.25.3",
 		"preact-iso": "^2.9.0",
 		"preact-render-to-string": "^6.5.13"
